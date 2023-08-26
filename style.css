@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top:0px;
+    background-color: #FFFDF1;
+}
+.website-bg-color{
+    background-color: #F94A3D;
+}
+.website-text-color{
+    color:#F94A3D;
+}
+.logo-d{
+    padding-inline: 5px;
+    font-weight: 900;
+}
+.logo-section{
+font-family: Poppins;
+font-size: 30px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: -0.01em;
+text-align: left;
+
+}
+.nav-item-menu ul{
+display: flex;
+justify-content: space-evenly;
+}
+.nav-item-menu ul li{
+  list-style: none;
+}
+.nav-item-menu ul a{
+    text-decoration: none;
+    color: black;
+}
+.right-section{
+ padding-left: 50px;
+ gap: 20px;
+}
+.search{
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   background-color: white;
+   border: 1px solid rgb(201, 201, 201);
+   height: 30px;
+   padding: 10px;
+   border-radius: 5px;
+}
+.search-text{
+    background-color: white;
+    color: rgb(180, 180, 180);
+    /* border-right: 1px solid  rgb(180, 180, 180);; */
+}
+.search .icon{
+    background-color: white;
+}
+.btn{
+    color: var(--food-delivery-white-color, #FFF);
+font-family: Poppins;
+font-size: 16px;
+padding: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.16px;
+}
+/* hero section */
+
+.hero-section{
+ background-color: #FFFDF1;
+}
+.more-than{
+    color: var(--food-delivery-orange-color, #F94A3D);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+background-color: #FDECEC;
+border-radius: 40px;
+padding: 10px;
+font-weight: 700;
+line-height: 16px; /* 88.889% */
+}
+.more-than>img{
+    background-color: white;
+    border-radius: 50%;
+}
+.hero-heading{
+    color: #212244;
+font-family: Poppins;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 70px; /* 116.667% */
+}
+.hero-description{
+    color: var(--food-delivery-p, #69697B);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+max-width: 418px;
+line-height: 32px; /* 177.778% */
+}
+
+/* after hero section */
+
+.grid{
+    gap:20px;
+}
+.best-in-town-heading{
+    color: var(--food-delivery-pg, #212244);
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 58px; /* 120.833% */
+}
+.best-in-town-description{
+    color: var(--food-delivery-p, #69697B);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+max-width: 273px;
+line-height: 31px; /* 172.222% */
+}
+.best-town-img-heading{
+    color: #212244;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 133.333% */
+}
+.grid-box2{
+    /* box-shadow: 0px 8px 1px rgb(162, 162, 162); */
+    border-radius: 20px;
+    box-shadow: 0 8px 5px rgb(226, 226, 9);
+    padding-inline: 20px;
+    /* gap:10px; */
+}
+.grid-box1{
+    /* box-shadow: 0px 8px 1px rgb(162, 162, 162); */
+    border-radius: 20px;
+    box-shadow: 0 8px 5px rgb(218, 218, 218);
+    padding-inline: 20px;
+    /* gap:10px; */
+}
+.grid-box3{
+    /* box-shadow: 0px 8px 1px rgb(162, 162, 162); */
+    border-radius: 20px;
+    box-shadow: 0 8px 5px rgb(180, 180, 180);
+    padding-inline:20px;
+    /* gap:10px; */
+}
+
+/* out top special */
+
+.special-rec-heading{
+    color: var(--food-delivery-pg, #212244);
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.special-menu>ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.special-menu>ul>li{
+    color: var(--food-delivery-pg, #212244);
+    font-family: Poppins;
+    font-size: 18px;
+    padding: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    list-style: none;
+}
+.first-item{
+    border-bottom: 2px solid #F94A3D;
+    color: #F94A3D;
+}
+/* .col-sm-3 .col-lg-3 .col-md-3 .icon{
+    height: 150px;
+    width: 150px;
+    /* /* display: block; * */
+} */
+svg{
+    margin-top: 20px;
+}
+
+
