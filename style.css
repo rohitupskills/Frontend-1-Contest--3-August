@@ -193,13 +193,52 @@ line-height: normal;
     border-bottom: 2px solid #F94A3D;
     color: #F94A3D;
 }
-/* .col-sm-3 .col-lg-3 .col-md-3 .icon{
-    height: 150px;
-    width: 150px;
-    /* /* display: block; * */
-} */
-svg{
-    margin-top: 20px;
+.icon{
+   /* align-items: center; */
+  margin-left: 60px;
 }
-
+.svg{
+    margin-top: 20px;
+    text-align: center;
+}
+.svg .title{
+    color: var(--food-delivery-pg, #212244);
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+padding: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.svg .price{
+    color: var(--food-text-color-2, #69697B);
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 100% */
+}
+.svg .website-text-color-span{
+    color: var(--food-delivery-orange-color, #F94A3D);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+}
+.btn-addtocart{
+    border: 1px solid #F94A3D;
+    margin-top: 10px;
+    background-color:white;
+    padding: 10px;
+    border-radius: 10px;
+    color: #F94A3D;
+    margin-bottom: 10px;
+}
+.btn-addtocart:hover{
+    background-color: #F94A3D;
+    color:white;
+}
 
